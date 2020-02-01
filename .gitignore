@@ -1,0 +1,14 @@
+venv
+db.sqlite3
+**/*.pyc
+**/__pycache__
+media
+static
+.DS_Store
+._.DS_Store
+**/.DS_Store
+**/._.DS_Store
+**/migrations/*
+
+!**/migrations/__init__.py
+!**/migrations/__pycache__/__init__*

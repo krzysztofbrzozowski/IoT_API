@@ -1,0 +1,44 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>IoT API</title>
+    <meta name="description" content="">
+    <meta name="robots" content="noindex, nofollow">
+    <style>
+        @font-face {
+            font-family: 'ubuntu_light';
+            src: url("{% static 'fonts/ul/Ubuntu-Light.eot' %}");
+            src: url("{% static 'fonts/ul/Ubuntu-Light.eot?#iefix' %}") format('embedded-opentype'),
+            url("{% static 'fonts/ul/Ubuntu-Light.woff2'%}") format('woff2'),
+            url("{% static 'fonts/ul/Ubuntu-Light.woff'%}") format('woff'),
+            url("{% static 'fonts/ul/Ubuntu-Light.ttf'%}") format('truetype');
+            font-weight: 300;
+            font-style: normal;
+        }
+
+        body {
+            background-color: #111;
+            font-family: 'ubuntu_light';
+        }
+
+        .human-text {
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center
+        }
+    </style>
+</head>
+
+<body>
+    <div class="human-text">
+        <h1 style="color: #eee;" class="type-text">IoT API</h1>
+    </div>
+</body>
+
+</html>
