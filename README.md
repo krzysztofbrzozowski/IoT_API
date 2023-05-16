@@ -6,7 +6,7 @@ Simple weather station running on ESP8266 and BME280. PCB, schematic and obj fil
 Station is sending data to custom written [IoT_API](https://github.com/krzysztofbrzozowski/IoT_API). The data you can read by [IoT_GUI](https://github.com/krzysztofbrzozowski/IoT_GUI).
 Firmware ESP8266 in MicroPython you can find here: [weather_station_ESP8266_firmware](https://github.com/krzysztofbrzozowski/weather_station_ESP8266_firmware).
 
-Whole project is describerd in polish on my webpage: https://krzysztofbrzozowski.pl/projekt/termo-wifi-monitoring-temperatury-przez-internet/
+Whole project is describerd in polish on my webpage: https://krzysztofbrzozowski.com/project/termo-wifi-monitoring-temperatury-przez-internet/
 
 ## Repository Contents
 
